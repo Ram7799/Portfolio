@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="579.0" prefWidth="830.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIStuff.Account">
+   <children>
+      <Button fx:id="PayButton" layoutX="25.0" layoutY="113.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="26.0" prefWidth="92.0" text="PAY" />
+      <Button fx:id="RequestButton" layoutX="25.0" layoutY="158.0" mnemonicParsing="false" onAction="#RequestButtonPressed" prefHeight="26.0" prefWidth="92.0" text="REQUEST" />
+      <Button fx:id="LogoutButton" layoutX="424.0" layoutY="14.0" mnemonicParsing="false" onAction="#LogOutButtonPressed" text="LOGOUT" />
+      <ListView fx:id="publicTrans" layoutX="415.0" layoutY="97.0" prefHeight="192.0" prefWidth="368.0" />
+      <Label layoutX="523.0" layoutY="76.0" prefHeight="16.0" prefWidth="153.0" text="Public Transactions" />
+      <ListView fx:id="Trans" layoutX="21.0" layoutY="377.0" prefHeight="200.0" prefWidth="789.0" />
+      <Label layoutX="21.0" layoutY="361.0" text="Transactions" />
+      <Button fx:id="BackButton" layoutX="25.0" layoutY="20.0" mnemonicParsing="false" onAction="#BackButtonPressed" text="Back" textFill="#f80000" />
+      <ImageView fitHeight="192.0" fitWidth="200.0" layoutX="175.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@zelle.PNG" />
+         </image>
+      </ImageView>
+      <Button fx:id="AccountSettings" layoutX="535.0" layoutY="14.0" mnemonicParsing="false" onAction="#AccountSettingsPressed" text="Account Settings" />
+      <Label fx:id="HelloUser" layoutX="680.0" layoutY="19.0" prefHeight="16.0" prefWidth="137.0" textFill="#0722f2" />
+   </children>
+</AnchorPane>

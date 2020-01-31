@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="321.0" prefWidth="452.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIStuff.Type">
+   <children>
+      <Label layoutX="38.0" layoutY="168.0" text="What kind of an account do you want to create today?" textFill="#0193fc" />
+      <Button fx:id="IndividualButton" layoutX="38.0" layoutY="251.0" mnemonicParsing="false" onAction="#IndividualButtonPressed" text="Individual" />
+      <Button fx:id="CompanyButton" layoutX="313.0" layoutY="251.0" mnemonicParsing="false" onAction="#CompanyButtonPressed" text="Company" />
+      <ImageView fitHeight="150.0" fitWidth="323.0" layoutX="164.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@zelle.PNG" />
+         </image>
+      </ImageView>
+      <Button fx:id="BackButton" layoutX="27.0" layoutY="37.0" mnemonicParsing="false" onAction="#BackButtonPressed" text="Back" textFill="#ee0606" />
+   </children>
+</AnchorPane>
